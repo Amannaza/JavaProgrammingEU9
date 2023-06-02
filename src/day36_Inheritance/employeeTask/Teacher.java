@@ -1,0 +1,1 @@
+package day36_Inheritance.employeeTask;public class Teacher extends Emloyee {    public void teach() {        System.out.println(name + " is teachinh");    }}/*2.4 Create the sub class of Employee named Teacher:			variables:				name, gender, age, id, jobTitle, salary			Methods:				setInfo()				work()				teaching				toString()*/

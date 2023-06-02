@@ -1,0 +1,1 @@
+package day36_Inheritance.animalTask;public class Tiger extends Animal {  //Tger is animal    public void roar() {        System.out.println(name + " is roaring");    }     public void hunt() {        System.out.println(name + " is hunting");    }}/*Tiger extends Animal:			roar()Tiger:       6 variables       8 methods			*/
