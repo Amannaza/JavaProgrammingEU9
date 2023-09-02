@@ -15,14 +15,12 @@ public class ReverseLove {
         for (int i = words[1].length() - 1; i >= 0; i--) {      //words[1]-this is not array.It is just String.Variable is String Array variable.
 
             reverse += words[1].charAt(i);
-
         }
         System.out.println(reverse);
 
 /*
         sentence = sentence.replaceFirst   (words[1], reverse);         //1.Replace the first char of words-to reverse
         System.out.println(sentence);
-
 */
 
         words[1] = reverse;                                     //2.assign to fisrt char of array reverse

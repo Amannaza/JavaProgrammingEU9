@@ -7,7 +7,7 @@ public class ArrayPractice3 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("How mant numbers would you like to enter?");
+        System.out.println("How many numbers would you like to enter?");
         int length = scan.nextInt();
 
 

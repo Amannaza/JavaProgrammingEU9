@@ -68,8 +68,8 @@ public class AddElementsToArray {
         return result;
     }
 
-    //   4. create a return method called addChar that can add a char after last index of a char array
 
+    //   4. create a return method called addChar that can add a char after last index of a char array
     public static char[] addChar(char[] chars, char ch) {
         char[] result = new char[chars.length + 1];
         int i = 0;

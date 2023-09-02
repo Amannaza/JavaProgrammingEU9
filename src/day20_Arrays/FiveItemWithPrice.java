@@ -13,23 +13,22 @@ public class FiveItemWithPrice {
         String[] product = new String[5];
         int[] price = new int[5];
 
-        int result = 0;
+        String result = "";
 
         for (int i = 0; i < 5; i++) {
 
             System.out.println("Enter the product name:");
             product[i] = input.next();
 
-            System.out.println("Enter the prrice:");
+            System.out.println("Enter the price:");
             price[i] = input.nextInt();
-            result += price[i];
+            result += product[i]+"----"+price[i]+"\n";
         }
 
         input.close();
 
-        System.out.println(Arrays.toString(product));
-        System.out.println(Arrays.toString(price));
-        System.out.println("Total price for products=" + result);
+
+        System.out.println( result);
 
     }
 }

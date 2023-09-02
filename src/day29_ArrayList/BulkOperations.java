@@ -3,7 +3,7 @@ package day29_ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BulkOperations {
+public class   BulkOperations {
 
     public static void main(String[] args) {
 

@@ -12,7 +12,7 @@ public class ArraysUtility {
     }
 
 
-    //prints each double of an double array in separate lines
+    //prints each double of a double array in separate lines
     public static void printEachElement(double[] array) {
         for (double each : array) {
             System.out.println(each);
@@ -20,7 +20,7 @@ public class ArraysUtility {
     }
 
 
-    //prints each char of an char array in separate lines
+    //prints each char of a char array in separate lines
     public static void printEachElement(char[] array) {
         for (char each : array) {
             System.out.println(each);
@@ -28,7 +28,7 @@ public class ArraysUtility {
     }
 
 
-    //prints each String of an String array in separate lines
+    //prints each String of a String array in separate lines
     public static void printEachElement(String[] array) {
         for (String each : array) {
             System.out.println(each);
@@ -117,7 +117,7 @@ public class ArraysUtility {
     }
 
 
-    //adds the given element to array,returns a new array
+    //adds the integer given element to array,returns a new array
     public static int[] addElement(int[] arr, int num) {
         int[] result = new int[arr.length + 1];
         int i = 0;
@@ -130,7 +130,7 @@ public class ArraysUtility {
     }
 
 
-    //adds the given element to array,returns a new array
+    //adds the double given element to array,returns a new array
     public static double[] addElement(double[] arr, double num) {
         double[] result = new double[arr.length + 1];
         int j = 0;
@@ -142,7 +142,7 @@ public class ArraysUtility {
     }
 
 
-    //adds the given element to array,returns a new array
+    //adds the String given element to array,returns a new array
     public static String[] addElement(String[] arr, String str) {
 
         String[] result = new String[arr.length + 1];
@@ -155,7 +155,7 @@ public class ArraysUtility {
     }
 
 
-    //adds the given element to array,returns a new array
+    //adds the char given element to array,returns a new array
     public static char[] addElement(char[] chars, char ch) {
         char[] result = new char[chars.length + 1];
         int i = 0;
@@ -167,7 +167,7 @@ public class ArraysUtility {
     }
 
 
-    //returns the frequence of the given element from the given array
+    //returns the frequence of the given int element from the given array
     public static int frequencyOfElement(int[] array, int element) {
         int count = 0;
         for (int each : array) {
@@ -179,7 +179,7 @@ public class ArraysUtility {
     }
 
 
-    //returns the frequence of the given element from the given array
+    //returns the frequence of the given double element from the given array
     public static int frequencyOfElement(double[] array, double element) {
         int count = 0;
         for (double each : array) {
@@ -190,7 +190,7 @@ public class ArraysUtility {
         return count;
     }
 
-    //returns the frequence of the given element from the given array
+    //returns the frequence of the given char element from the given array
     public static int frequencyOfElement(char[] array, char element) {
         int count = 0;
         for (char each : array) {
@@ -201,7 +201,7 @@ public class ArraysUtility {
         return count;
     }
 
-    //returns the frequence of the given element from the given array
+    //returns the frequence of the given String element from the given array
     public static int frequencyOfElement(String[] array, String element) {
         int count = 0;
         for (String each : array) {
@@ -269,7 +269,7 @@ public class ArraysUtility {
     }
 
 
-    //remove the index from the array, returns new array again
+    //remove with the index from the array, returns new array again
     public static int[] removeElement(int[] array, int index) {
         if (index < 0 || index > array.length - 1) {
             System.out.println("Invalid Index : " + index);
@@ -287,7 +287,7 @@ public class ArraysUtility {
     }
 
 
-    //remove the index from the array, returns new array again
+    //remove with the index from the array, returns new array again
     public static double[] removeElement(double[] array, int index) {
         if (index < 0 || index > array.length - 1) {
             System.out.println("Invalid Index : " + index);
@@ -305,7 +305,7 @@ public class ArraysUtility {
     }
 
 
-    //remove the index from the array, returns new array again
+    //remove with the index from the array, returns new array again
     public static char[] removeElement(char[] array, int index) {
         if (index < 0 || index > array.length - 1) {
             System.out.println("Invalid Index : " + index);
@@ -323,7 +323,7 @@ public class ArraysUtility {
     }
 
 
-    //remove the index from the array, returns new array again
+    //remove with the index from the array, returns new array again
     public static String[] removeElement(String[] array, int index) {
         if (index < 0 || index > array.length - 1) {
             System.out.println("Invalid Index : " + index);
@@ -393,7 +393,6 @@ public class ArraysUtility {
     }
 
 
-
     //reverse the array,returns a new array
     public static int[] reverse(int[] array) {
         int[] result = new int[array.length];
@@ -432,7 +431,6 @@ public class ArraysUtility {
         }
         return result;
     }
-
 
 
     //remove duplicated elements, return new array
@@ -491,7 +489,6 @@ public class ArraysUtility {
     }
 
 
-
     //replace the element of the array at the given index with the new element
     public static int[] replace(int[] array, int index, int newElement) {
         if (index < 0 || index > array.length - 1) {
@@ -534,7 +531,6 @@ public class ArraysUtility {
         array[index] = newElement;
         return array;
     }
-
 
 
     //replace all matching old value with new value
@@ -587,7 +583,6 @@ public class ArraysUtility {
         }
         return array;
     }
-
 
 
     //swap two element of array according given index number,return new array
@@ -650,7 +645,6 @@ public class ArraysUtility {
     }
 
 
-
     //insert index of array with newElement,return new array
     public static int[] insert(int[] array, int index, int newElement) {
 
@@ -665,7 +659,7 @@ public class ArraysUtility {
 
         for (int i = 0; i < array.length; i++) {
 
-            result[j++]= array[i] ;
+            result[j++] = array[i];
 
             if (i == index) {
                 result[j++] = newElement;
@@ -682,13 +676,13 @@ public class ArraysUtility {
             System.exit(0);
         }
 
-        double[]result=new double[array.length+1];
-        int j=0;
+        double[] result = new double[array.length + 1];
+        int j = 0;
 
         for (int i = 0; i < array.length; i++) {
-            result[j++]=array[i];
-            if (i==index){
-                result[j++]=newElement;
+            result[j++] = array[i];
+            if (i == index) {
+                result[j++] = newElement;
             }
         }
         return result;
@@ -702,13 +696,13 @@ public class ArraysUtility {
             System.exit(0);
         }
 
-        char[]result=new char[array.length+1];
-        int j=0;
+        char[] result = new char[array.length + 1];
+        int j = 0;
 
         for (int i = 0; i < array.length; i++) {
-            result[j++]=array[i];
-            if (i==index){
-                result[j++]=newElement;
+            result[j++] = array[i];
+            if (i == index) {
+                result[j++] = newElement;
             }
         }
         return result;
@@ -722,13 +716,13 @@ public class ArraysUtility {
             System.exit(0);
         }
 
-        String[]result=new String[array.length+1];
-        int j=0;
+        String[] result = new String[array.length + 1];
+        int j = 0;
 
         for (int i = 0; i < array.length; i++) {
-            result[j++]=array[i];
-            if (i==index){
-                result[j++]=newElement;
+            result[j++] = array[i];
+            if (i == index) {
+                result[j++] = newElement;
             }
         }
         return result;

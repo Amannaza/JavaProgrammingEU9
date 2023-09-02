@@ -9,11 +9,11 @@ public class ForEachLoop {
 
         for (int[] each1DArray : array2D) {
 
-            for (int eachElement:each1DArray)
-                System.out.print(eachElement +" ");
+            for (int eachElement : each1DArray) {
+                System.out.print(eachElement + " ");
+            }
+
+            System.out.println();
         }
-
-
-
     }
 }

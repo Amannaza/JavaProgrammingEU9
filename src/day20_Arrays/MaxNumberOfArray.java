@@ -14,8 +14,8 @@ public class MaxNumberOfArray {
             if (each > max) {
                 max = each;
             }*/
-            if (numbers[i]>max){
-                max=numbers[i];
+            if (numbers[i] > max) {
+                max = numbers[i];
             }
 
         }

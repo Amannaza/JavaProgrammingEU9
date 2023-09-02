@@ -43,19 +43,23 @@ public class DogObjects {
         dog5.setInfo("Sully", "Pitbull", 6, 'M', "Large", "Black");
 
 
+        System.out.println("------------------------------------------------------------------");
+
+
         Dog[] dogs = {dog1, dog2, dog3, dog4, dog5};
 
 
         ArrayList<Dog> femaleDogs = new ArrayList<>();
-       /* femaleDogs.addAll(Arrays.asList(dogs));
+        femaleDogs.addAll(Arrays.asList(dogs));
         femaleDogs.removeIf(p -> p.gender == 'M');
-        System.out.println("femaleDogs = " + femaleDogs);*/
+        System.out.println("femaleDogs = " + femaleDogs);
 
         ArrayList<Dog> maleDogs = new ArrayList<>();
-        /*maleDogs.addAll(Arrays.asList(dogs));
+        maleDogs.addAll(Arrays.asList(dogs));
         maleDogs.removeIf(p -> p.gender != 'M');
         System.out.println("maleDogs = " + maleDogs);
-    */
+
+
 
     }
 }

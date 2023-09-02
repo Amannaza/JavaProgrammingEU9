@@ -15,12 +15,11 @@ public class ReverseSentence {
 
         int j = 0;
 
-        for (int i = words.length-1; i >= 0; i--) {
+        for (int i = words.length - 1; i >= 0; i--) {
             reversedSentence = words[i];
             System.out.print(reversedSentence + ", ");
 
         }
-
 
 
     }

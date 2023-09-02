@@ -1,6 +1,6 @@
 package day28_ArrayList;
 
-public class StrongPassword {
+public class  StrongPassword {
 
     public static void main(String[] args) {
 

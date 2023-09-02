@@ -1,5 +1,8 @@
 package day30_CustomClass;
 
+import java.sql.Array;
+import java.util.Arrays;
+
 public class EmployeObjects {
 
     public static void main(String[] args) {
@@ -14,7 +17,7 @@ public class EmployeObjects {
         employee2.setInfo("Anna", 'F', 28, 2287, "QA", 85000, true);
         employee3.setInfo("David", 'M', 35, 2256, "QA", 45000, false);
         employee4.setInfo("Lina", 'F', 45, 2298, "Manager", 80000, true);
-        employee5.setInfo("Kevin", 'M', 35, 2298, "Senior QA", 110000, true);
+        employee5.setInfo("Kevin", 'M', 35, 2299, "Senior QA", 110000, true);
 
         Employee[] employees = {employee1, employee2, employee3, employee4, employee5};
 
@@ -47,6 +50,9 @@ public class EmployeObjects {
 
         System.out.println("max = " + max);
         System.out.println("min = " + min);
+
+
+        //System.out.println(Arrays.toString(employees));
     }
 
 }

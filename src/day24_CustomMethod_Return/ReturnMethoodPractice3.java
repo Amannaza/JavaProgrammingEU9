@@ -1,6 +1,6 @@
 package day24_CustomMethod_Return;
 
-public class ReturnMethoodPractice3 {
+public class   ReturnMethoodPractice3 {
 
 
     public static void main(String[] args) {

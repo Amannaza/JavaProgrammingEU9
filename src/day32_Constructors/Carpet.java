@@ -2,7 +2,7 @@ package day32_Constructors;
 
 import java.lang.reflect.Constructor;
 
-public class Carpet {
+public class  Carpet {
 
     public double width,length,unitPrice;
     public boolean isPersian;

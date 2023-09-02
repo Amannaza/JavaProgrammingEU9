@@ -23,8 +23,8 @@ public class Employee {
         this.isFullTime = isFullTime;
     }
 
-    public void work(){
-        System.out.println(jobTitle+" "+name+" is working");
+    public void work() {
+        System.out.println(jobTitle + " " + name + " is working");
     }
 
 

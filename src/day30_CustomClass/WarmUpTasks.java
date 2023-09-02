@@ -79,7 +79,7 @@ public class WarmUpTasks {
         letters.removeIf(p -> !Character.isLetter(p));//Lambda
 
         System.out.println("letters = " + letters);
-        ;
+
 
         ArrayList<Character> digits = new ArrayList<>(chars);
         digits.removeIf(p -> !Character.isDigit(p));//Lambda

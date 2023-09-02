@@ -3,7 +3,7 @@ package day20_Arrays;
 public class UniqueElements {
     public static void main(String[] args) {
 
-        String[] words = {"Java", "Java", "C#","C#", "Python", "Python","Aman","NAme","Ruhnama","Aman"};
+        String[] words = {"Java", "Java", "C#", "C#", "Python", "Python", "Aman", "NAme", "Ruhnama", "Aman"};
 
         String unique = "";
 
@@ -19,6 +19,7 @@ public class UniqueElements {
                 }
 
             }
+
             if (frequency == 1) {
 
                 System.out.println(element);

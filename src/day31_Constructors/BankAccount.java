@@ -1,20 +1,20 @@
 package day31_Constructors;
 
-public class BankAccount {
+public class  BankAccount {
 
     public String accountHolder;
-    public long acoountNumber;
+    public long accountNumber;
     public double balance;
 
-    public void setInfo(String accountHolder,long acoountNumber ){
+    public void setInfo(String accountHolder,long accountNumber ){
         this.accountHolder=accountHolder;
-        this.acoountNumber=acoountNumber;
+        this.accountNumber=accountNumber;
     }
 
     public String toString() {
         return "BankAccount{" +
                 "accountHolder='" + accountHolder + '\'' +
-                ", acoountNumber=" + acoountNumber +
+                ", accountNumber=" + accountNumber +
                 ", balance=$" + balance +
                 '}';
     }

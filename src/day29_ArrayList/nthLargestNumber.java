@@ -14,10 +14,17 @@ public class nthLargestNumber {
         int max = Collections.max(list);//first max number
         System.out.println(max);
 
-        list.removeIf(p -> p == Collections.max(list));
+        int n = 3;//Third max number
+
+        for (int i = 1; i < n; i++) {
+
+
+            list.removeIf(p -> p == Collections.max(list));
+        }
         int max1 = Collections.max(list);//second max number
 
-       /* list.removeIf(p -> p == Collections.max(list));
+
+        /* list.removeIf(p -> p == Collections.max(list));
         int max2 = Collections.max(list);//third max number*/
 
         System.out.println(max1);

@@ -13,6 +13,7 @@ public class MinNmberOfArrays {
                 min = num[i];
             }
         }
+
         System.out.println("Min number=" + min);
 
     }

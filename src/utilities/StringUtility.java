@@ -44,21 +44,18 @@ public class StringUtility {
 
 
     //removes the dublicates from the given string ,returns String.     "aaaaaabbbbccc"=====>"abc"
-    public static String removeDublicates(String str){
-        String result="";
+    public static String removeDublicates(String str) {
+        String result = "";
 
-        for (int i = 0; i <str.length() ; i++) {
+        for (int i = 0; i < str.length(); i++) {
 
-            char each=str.charAt(i);
-            if (!result.contains(""+each)){
-                result+=each;
+            char each = str.charAt(i);
+            if (!result.contains("" + each)) {
+                result += each;
             }
         }
         return result;
     }
-
-
-
 
 
 }
