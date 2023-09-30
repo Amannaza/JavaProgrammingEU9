@@ -1,0 +1,1 @@
+package day40_FinalKeyword;public class ProtectedAccessModifiers {    static String name1 = "Cydeo";  //default access modifier    public static String name2 = "Wooden Spoon";   //protected access modifier    static void method1(){        System.out.println("Method 1");    }    protected static void method2(){        System.out.println("Method 2");    }}
